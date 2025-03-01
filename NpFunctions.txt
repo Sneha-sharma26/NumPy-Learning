@@ -1,0 +1,40 @@
+np.array() -> to create numpy array
+arange(15) -> create array having element upto specified range, similar to py's range function
+argmax()   -> gives index of the maximum element
+argmin()   -> returns the index of the minimun element
+argsort()  -> returns indices of the elements(in sorted order)
+
+count_nonzero(arr_name)   -> counts no. of non-zero elements in an array
+column_stack([1,2,4,6])   -> Stack elements of 1-D arrays as columns into a 2-D array
+
+dtype      -> returns datatype of the elements of the array
+
+empty((3,4))        -> returns an empty array of random value which can be assigned later
+empty_like(np_arr)  -> similar to empty but instead of random value we can use our specified values and array shape
+
+matrix_name.flat                -> ives an iterator to iterate though the array elements one by one using loops
+
+identity(3)         -> returns an identity matrix of specified row/column 
+itemsize            -> returns size of 1 item in array
+
+linspace (1, 5, 12) -> it will return elements having equal difference (start element, end element, no. of elements)
+
+max()         -> returns max element of the array
+
+nbytes        -> returns total bytes consumed
+ndim          -> returns No. of dimensions(x & y)
+nonzero(arr_name)  -> Return tuples as the indices of the elements that are non-zero
+
+ravel()       -> converting any to 1D array
+reshape(3,11) -> reshapes array as per specification
+
+sum()         -> add the elements of the array
+shape         -> returns (no. of rows, no. of columns)
+size          -> returns the no. of elements in the array
+
+matrix_name.T -> returns Transpose of a Matrix
+tolist()      -> converts numpy array to list
+
+np.where(arr_name > 5)   -> It returns tuple of an array according to specified condition
+
+zeros((2,5))  -> create an array of specified shape with all elements as 0(float value as default)

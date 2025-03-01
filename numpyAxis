@@ -1,0 +1,17 @@
+In NumPy, 
+1D array have 1 axis, i.e., Axis 0
+
+2D array have 2 axis, i.e., Axis 0 & Axis 1
+-> Axis 0 spans through rows
+-> Axis 1 spans through columns
+
+Eg:
+     -> axis 1
+
+   [[1, 2, 3],   sum = 6   -> as per axis 1
+    [4, 5, 6],   sum = 15  -> as per axis 1
+    [7, 1, 0]]   sum = 8   -> as per axis 1
+    
+     |  |  |
+sum=12  8  9
+as per axis 0
